@@ -1,0 +1,137 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.bg-brand{
+    background-color:#F8FBFB;
+}
+.nav-btn{
+    background: linear-gradient(90deg, #00B0C6 -13.32%, #356AF3 105.84%);
+    width: 156px;
+    height: 49px;
+    left: 1148px;
+    top: 49px;
+    border-radius: 13px;
+}
+.logo{
+    width: 300px;
+    height: 111px;
+    left: 114px;
+    top: 18px;
+}
+.c-brand{
+    color:  #010101;
+
+}
+.baner-btn{
+    background: linear-gradient(90deg, #FFDB00 -13.32%, #FF8900 105.84%);
+    border-radius: 18px;
+    width: 214px;
+    height: 61px;
+    left: 135px;
+    top: 582px;
+}
+.baner-img{
+    width: 472px;
+    height: 474px;
+}
+.Vector-img{
+    position: absolute;
+    left: 30px;
+    top: 160px;
+}
+.box{
+    border: 1px solid #F3F3F3;
+    border-radius: 20px;
+    background: #FFFFFF;
+    width: 340px;
+    height: 126px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    z-index: 9999;
+}
+.position-a{
+    position: absolute;
+}
+.position-r{
+    position: relative !important;
+}
+.line-40{
+    line-height: 40px;
+}
+.round1{
+    right: 56px;
+    top: 216px;
+}
+.bg-blue{
+    background: linear-gradient(90deg, #00B0C6 -13.32%, #356AF3 105.84%);
+}
+.box1{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(209, 209, 209, 0.28);
+    border-radius: 30px;
+}
+.box2{
+    background: linear-gradient(90deg, #FFDB00 -13.32%, #FF8900 105.84%);
+    border-radius: 0px 0px 30px 30px;
+}
+.m-top-50{
+    margin-top: -45px;
+}
+.service-box{
+    width: 326px;
+    height: 80px;
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+    border-radius: 18px;
+}
+.v-round{
+    height: 50px;
+    width: 50px;
+    border-radius: 41px;
+    background: #7A50F9;
+}
+.v-round1{
+    height: 50px;
+    width: 50px;
+    border-radius: 41px;
+    background: #05CD99;
+}
+.v-round2{
+    height: 50px;
+    width: 50px;
+    border-radius: 41px;
+    background: #00B0C6;
+}
+.v-round3{
+    height: 50px;
+    width: 50px;
+    border-radius: 41px;
+    background: #FF8900;
+}
+.Testimonials-btn{
+    width: 166px;
+    height: 37px;
+    border: 0;
+    background: #E3F8FA;
+    border-radius: 11px;
+}
+.Testimonials-btn1{
+    width: 190px;
+    height: 49px;
+    border: 0;
+    background: linear-gradient(90deg, #00B0C6 -13.32%, #356AF3 105.84%);
+    border-radius: 13px;
+}
+@media only screen and (max-width: 600px) {
+    .Vector-img{
+        display: none;}
+        .baner-img{
+            width: 100%;
+        }
+        .round1{
+            display: none;
+        }
+        .logo{
+            width: 250px;
+        }
+    }
